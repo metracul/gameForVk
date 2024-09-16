@@ -1,6 +1,6 @@
 // Находим элемент canvas и получаем контекст для рисования
 import bridge from '@vkontakte/vk-bridge';
-bridge.send("VKWebAppInit", {});
+bridge.send("VKWebAppInit");
 const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
 
